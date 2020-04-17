@@ -1,3 +1,6 @@
+// cert trust
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
+// request module
 module.exports.moduleRequest = require('request')
 // crypto API
 module.exports.cryptoAPI = require('./endpoints/crypto/ind.js')
