@@ -1,0 +1,29 @@
+{
+  "name": "net-tools-node",
+  "version": "1.0.0",
+  "description": "This is the NodeJS API wrapper for the net-tools.xyz API (https://api.net-tools.xyz)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dev.depascaldc.de:developers.net-tools.xyz/Net-Tools-Node.git"
+  },
+  "keywords": [
+    "net-tools",
+    "net-tools.xyz",
+    "apiwrapper",
+    "minecraftapi",
+    "iptools",
+    "cryptotools",
+    "tools",
+    "toolapi",
+    "api"
+  ],
+  "author": "depascaldc",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
