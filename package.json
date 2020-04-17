@@ -1,6 +1,6 @@
 {
   "name": "net-tools-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is the NodeJS API wrapper for the net-tools.xyz API (https://api.net-tools.xyz)",
   "main": "index.js",
   "scripts": {
