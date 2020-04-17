@@ -1,7 +1,7 @@
 const request = require('../../index.js').moduleRequest;
 const urlbase = 'https://api.net-tools.xyz';
 
-module.exports = (username, callback) => {
+module.exports.run = (username, callback) => {
     request.get(urlbase + '/mcapi/uuid/?name=' + username, (error, response, body) => {
         if (error) {
             if (callback) return callback(error, null)
