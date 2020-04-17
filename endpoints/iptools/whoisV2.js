@@ -1,6 +1,7 @@
 const request = require('../../index.js').moduleRequest;
 const urlbase = 'https://api.net-tools.xyz';
-module.exports = (host, callback) => {
+
+module.exports.run = (host, callback) => {
     request.get(urlbase + '/iptools/whoisV2/?host=' + host, (error, response, body) => {
         if(error) {
             if(callback) return callback(error, null)
@@ -18,4 +19,13 @@ module.exports = (host, callback) => {
             }
         }
     })
+}
+
+module.exports.runAsync = async (host) => {
+    return new Promise((resolve, reject) => {
+        this.run(host, (err, result) => {
+            if (err) reject(err);
+            else resolve(result);
+        })
+    });
 }
