@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@dev.depascaldc.de:developers.net-tools.xyz/Net-Tools-Node.git"
+    "url": "git@github.com:depascaldc/net-tools-node.git"
   },
   "keywords": [
     "net-tools",
