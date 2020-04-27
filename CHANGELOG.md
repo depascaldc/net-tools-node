@@ -1,3 +1,7 @@
+## Version 1.0.5
+```
+- Added module Host To IP Resolver
+```
 ## Version 1.0.4
 ```
 - Request package update
